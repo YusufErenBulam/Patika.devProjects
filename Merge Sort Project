@@ -1,0 +1,29 @@
+Merge Sort Projesi
+
+Soru 1
+
+[16,21,11,8,12,22] -> Merge Sort
+
+Yukarıdaki dizinin sort türüne göre aşamalarını yazınız.
+
+Cevap 1
+
+[16,12,11] - [8,12,22] -> 2 gruba ayırıyoruz.
+
+[16] - [21,11] - [8,12] - [22] -> 16 ve 22 tekli kalanları 2'şerli gruplara ayırıyoruz.
+
+[16] - [21] - [11] - [8] - [12] - [22] -> hepsini tekli gruplara ayırıyoruz.
+
+[16] - [11,21] - [8,12] - [22] -> ilk ve son sayıları tekli diğerlerini küçükten büyüğe doğru ikişerli gruplara ayırıyoruz.
+
+[11,16,21] - [8,12,22] -> tekli gruplar küçükten büyüğe birleştiriliyor.
+
+[8,11,12,16,21,22] -> son olarak küçükten büyüğe sıralanıp tamamlanıyor.
+
+Soru 2
+
+Big-O gösterimini yazınız.
+
+Cevap 2
+
+2^x=n = O(nlogn)
