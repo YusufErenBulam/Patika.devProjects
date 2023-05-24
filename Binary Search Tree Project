@@ -1,0 +1,37 @@
+ Soru :
+ 
+ [7, 5, 1, 8, 3, 6, 0, 9, 4, 2] dizisinin Binary-Search-Tree aşamalarını yazınız.
+ 
+ Cevap :
+ 
+ [7, 5, 1, 8, 3, 6, 0, 9, 4, 2] dizisinin Binary-Search-Tree aşamaları:
+
+  7 root olarak alınmıştır.
+  
+  5, root'tan küçük olduğu için sol tarafında olur.
+  
+  1, 5'ten küçük olduğu için 5'in sol tarafında olur.
+  
+  8, root'tan büyük olduğu için sağ tarafında olur.
+  
+  3, 1'den büyük ama 5'ten küçük olduğu için 1'in sağ tarafında olur.
+  
+  6, 5'ten büyük ama 7'den küçük olduğu için 5'in sağ tarafında olur.
+  
+  0, 1'den küçük olduğu için 1'in sol tarafında olur.
+  
+  9, root'tan ve 8'den büyük olduğu için 8'in sağ tarafında olur.
+  
+  4, 3'ten büyük ama 5'ten küçük olduğu için 3'ün sağ tarafında olur.
+  
+  2, 1'den büyük ama 3'ten küçük olduğu için 3'ün sol tarafında olur.
+  
+            7
+           / \
+          5   8 
+        /   \   \ 
+       1     6   9 
+      /  \ 
+     0    3        
+        /  \
+       2     4
